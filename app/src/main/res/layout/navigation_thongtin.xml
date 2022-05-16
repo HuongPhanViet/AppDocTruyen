@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:background="@drawable/ic_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="84dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:scrollX="10dp"
+            android:src="@drawable/ic_userr">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/TEXTNAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Hưởng Phan"
+            android:textColor="#ff0"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/TextGmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Huongphan@gmail.com"
+            android:textColor="#F44336"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/TEXTTrangthai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
